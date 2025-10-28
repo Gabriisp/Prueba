@@ -1,5 +1,8 @@
 from utils.printer import print_message
 def saludo(name: str):
-    """Genera un saludo simple."""
+    """Genera un saludo simple en español."""
     message = f"Hola, {name}!"
+def greet_in_english(name: str):
+    """Genera un saludo simple en inglés."""
+    message = f"Hello, {name}!"
     print_message(message)
